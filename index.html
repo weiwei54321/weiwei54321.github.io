@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的個人檔案</title>
+    <style>
+        /* 全局樣式設定 */
+        body {
+            font-family: "Microsoft JhengHei", "Segoe UI", sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        /* 容器設定 */
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 標題樣式 */
+        header {
+            text-align: center;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        .subtitle {
+            color: #7f8c8d;
+            font-size: 1.1em;
+        }
+
+        /* 區塊樣式 */
+        section {
+            margin-bottom: 30px;
+        }
+
+        h2 {
+            color: #34495e;
+            border-left: 5px solid #3498db;
+            padding-left: 10px;
+        }
+
+        /* 列表與連結 */
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        li::before {
+            content: "•";
+            color: #3498db;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+
+        a {
+            color: #3498db;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* 頁腳 */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>co2_tw</h1>
+            <p class="subtitle">一個二氧化碳</p>
+        </header>
+
+        <section id="about">
+            <h2>關於我</h2>
+            <p>我是一個活在這世界上的人。</p>
+        </section>
+
+        <section id="skills">
+            <h2>技能專長</h2>
+            <ul>
+                <li>呼吸</li>
+                <li>玩玩ai</li>
+                <li>找找漏洞</li>
+                <li>架設這網站</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>聯絡方式</h2>
+            <p>個人網站：<a href="#">https://none.com(並沒有買)</a></p>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 co2_tw. All rights reserved.</p>
+        </footer>
+    </div>
+
+</body>
+</html>   
