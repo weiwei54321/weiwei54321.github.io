@@ -16,9 +16,18 @@
    ========================================================= */
 window.FRIEND_SITES = [
     {
+        name: "指令貓",
+        url: "https://cmdcat.com/",
+        description: "這是一隻貓，如同名稱。",
+        avatar: "https://cmdcat.com/img/cat.png",
+        banner: "friends/example-banner.svg",
+        background: "friends/example-bg.svg",
+        button: "前去看看"
+    },
+    {
         name: "範例友站",
         url: "https://example.com/",
-        description: "這是一個範例卡片，換成你朋友的網站資料就可以了。",
+        description: "這是一個範例卡片，換成你朋友的網站資料就可以了(我保留他因為方便複製:>)。",
         avatar: "friends/example-avatar.svg",
         banner: "friends/example-banner.svg",
         background: "friends/example-bg.svg",
@@ -27,7 +36,7 @@ window.FRIEND_SITES = [
     {
         name: "沒有圖片的友站",
         url: "https://example.org/",
-        description: "沒有填圖片時，會自動用名稱第一個字當頭像、用主題色當橫幅。"
+        description: "沒有填圖片時，會自動用名稱第一個字當頭像、用主題色當橫幅(我保留他因為方便複製:>)。"
     }
 
     /* 新增範本（複製這段，記得前一個項目後面要加逗號）：
