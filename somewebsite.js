@@ -25,6 +25,15 @@ window.FRIEND_SITES = [
         button: "前去看看"
     },
     {
+        name: "CreeperDEV",
+        url: "https://creeperdev.me/",
+        description: "帥哥一個。",
+        avatar: "https://creeperdev.me/assets/img/avatar.png",
+        banner: "friends/example-banner.svg",
+        background: "friends/example-bg.svg",
+        button: "前去看看"
+    },
+    {
         name: "範例友站",
         url: "https://example.com/",
         description: "這是一個範例卡片，換成你朋友的網站資料就可以了(我保留他因為方便複製:>)。",
