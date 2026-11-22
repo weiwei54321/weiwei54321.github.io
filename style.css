@@ -240,6 +240,22 @@ html:not(.js) .typing {
     font-size: 1.8em;
     font-weight: 700;
     animation: float 4s ease-in-out infinite;
+    position: relative;
+    overflow: hidden;
+}
+
+.avatar > span {
+    grid-area: 1 / 1;
+}
+
+.avatar-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    background: var(--bg);
 }
 
 @keyframes float {
