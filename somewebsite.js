@@ -34,10 +34,10 @@ window.FRIEND_SITES = [
         button: "前去看看"
     },
     {
-        name: "範例友站",
-        url: "https://example.com/",
-        description: "這是一個範例卡片，換成你朋友的網站資料就可以了(我保留他因為方便複製:>)。",
-        avatar: "friends/example-avatar.svg",
+        name: "Wayne",
+        url: "https://wayne227304.dpdns.org/",
+        description: "一位窮逼😭",
+        avatar: "https://avatars.githubusercontent.com/u/251603416?v=4",
         banner: "friends/example-banner.svg",
         background: "friends/example-bg.svg",
         button: "前往"
